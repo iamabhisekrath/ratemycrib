@@ -6,7 +6,7 @@
     
     <!-- SEO Meta Tags -->
     <title>Discover India's 1st Trusted Community Driven Truth Engine for Renters | Secure Your Deposit & Avoid Hidden Issues</title>
-    <meta name="description" content="Secure your deposit and avoid hidden issues. Join India's 1st trusted community-driven truth engine for renters. Get real insights on seepage, landlords, and more.">
+    <meta name="description" content="Discover India's 1st trusted community driven truth engine for renters. Secure your deposit and avoid hidden issues with real, verified rental histories.">
     
     <!-- Scripts -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -62,15 +62,19 @@
             background-size: 5rem 5rem;
         }
 
-        /* Brand Colors */
+        /* Brand Colors from Logo */
         .logo-word-navy { color: #1D3E76; }
         .logo-word-teal { color: #21B7B0; }
         .btn-brand-gradient {
-            background: linear-gradient(to right, #21B7B0, #14b8a6);
+            background: linear-gradient(to right, #FBBF24, #f59e0b);
         }
 
         h1, h2, h3 {
             letter-spacing: -0.04em;
+        }
+
+        .text-glow-teal {
+            text-shadow: 0 0 20px rgba(33, 183, 176, 0.3);
         }
     </style>
 </head>
@@ -87,7 +91,7 @@
     <!-- Navbar -->
     <nav id="navbar" class="fixed top-0 w-full z-50 transition-all duration-500 py-7">
         <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
-            <!-- Brand Logo -->
+            <!-- Exact Brand Logo Recreation -->
             <div class="flex flex-col gap-0 items-start cursor-pointer hover:scale-[1.02] transition-transform">
                 <div class="flex items-center gap-2.5">
                     <svg viewBox="0 0 100 85" class="w-10 h-8">
@@ -129,17 +133,15 @@
                 </div>
             </div>
             
-            <!-- Desktop Nav -->
             <div class="hidden md:flex items-center gap-10 text-[10px] font-black uppercase tracking-[0.2em] text-gray-500">
                 <a href="#mission" class="hover:text-white transition-all">Mission</a>
-                <a href="#why" class="hover:text-white transition-all">Truths</a>
+                <a href="#why" class="hover:text-white transition-all">Why Us</a>
                 <a href="#nightmare" class="hover:text-white transition-all">Join</a>
             </div>
 
-            <!-- Header CTA -->
             <a href="mailto:founders@ratemycrib.co.in" class="relative group">
-                <div class="absolute -inset-1 btn-brand-gradient rounded-full blur opacity-40 group-hover:opacity-100 transition duration-300"></div>
-                <div class="relative btn-brand-gradient text-white px-6 py-2.5 rounded-full text-[11px] font-black transition-all flex items-center gap-2 uppercase tracking-wider">
+                <div class="absolute -inset-1 bg-yellow-400 rounded-full blur opacity-20 group-hover:opacity-100 transition duration-300"></div>
+                <div class="relative btn-brand-gradient text-black px-6 py-2.5 rounded-full text-[11px] font-black transition-all flex items-center gap-2 uppercase tracking-wider">
                     Share Your Story <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
                 </div>
             </a>
@@ -180,179 +182,217 @@
 
         <div class="max-w-4xl mx-auto text-center relative z-10">
             <div class="inline-flex items-center gap-2 bg-white/5 border border-white/10 px-4 py-2 rounded-full mb-8 backdrop-blur-md animate-fade-in-up">
-                <span class="text-[9px] font-black uppercase tracking-[0.3em] text-gray-400">India's First Renter-Owned Community</span>
+                <span class="text-[9px] font-black uppercase tracking-[0.3em] text-gray-400">India's First Community-Driven Rental Platform</span>
             </div>
 
-            <h1 class="text-4xl md:text-6xl lg:text-7xl font-black leading-[1.05] mb-8 tracking-tighter">
+            <h1 class="text-5xl md:text-7xl lg:text-8xl font-black leading-[1] mb-8 tracking-tighter">
                 Indian Renting <br />
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-400">is a Gamble.</span><br />
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-400 text-glow-teal italic">is a Gamble.</span><br />
                 <span class="relative">
-                    We're Fixing it.
-                    <div class="absolute -bottom-1 left-0 w-full h-1.5 bg-teal-500/20 rounded-full -z-10"></div>
+                    We're Fixing the Odds.
+                    <div class="absolute -bottom-2 left-0 w-full h-1.5 bg-teal-500/30 rounded-full -z-10"></div>
                 </span>
             </h1>
 
-            <p class="text-gray-400 text-base md:text-lg max-w-2xl mx-auto mb-12 leading-relaxed font-medium">
-                Stop guessing. Start knowing. We're building the first truth engine for Indian urban renters. No more hidden seepage, nosy landlords, or deposit drama. 
+            <p class="text-gray-400 text-base md:text-xl max-w-2xl mx-auto mb-12 leading-relaxed font-medium">
+                Stop guessing. Start knowing. We're building India's first truth engine for urban renters. No more hidden seepage, nosy landlords, or "lost" deposits. 
             </p>
 
             <div class="flex flex-col sm:flex-row items-center justify-center gap-5 mb-16">
-                <a href="mailto:founders@ratemycrib.co.in" class="w-full sm:w-auto btn-brand-gradient text-white px-8 py-4 rounded-xl text-lg font-black transition-all shadow-xl shadow-teal-500/20 flex items-center justify-center gap-2 hover:brightness-110 active:scale-95">
-                    Share Your Opinion <i data-lucide="arrow-right" class="w-5 h-5"></i>
+                <a href="mailto:founders@ratemycrib.co.in" class="w-full sm:w-auto btn-brand-gradient text-black px-10 py-5 rounded-2xl text-xl font-black transition-all shadow-xl shadow-yellow-500/20 flex items-center justify-center gap-2 hover:brightness-110 active:scale-95">
+                    Share Your Opinion <i data-lucide="arrow-right" class="w-6 h-6"></i>
                 </a>
-                <button class="w-full sm:w-auto flex items-center justify-center gap-3 text-white font-black bg-white/5 border border-white/10 px-8 py-4 rounded-xl hover:bg-white/10 transition-all group">
-                    <i data-lucide="play-circle" class="w-5.5 h-5.5 text-teal-400"></i>
-                    <span class="text-xs uppercase tracking-widest">How It Works</span>
+                <button class="w-full sm:w-auto flex items-center justify-center gap-3 text-white font-black bg-white/5 border border-white/10 px-10 py-5 rounded-2xl hover:bg-white/10 transition-all group">
+                    <i data-lucide="play-circle" class="w-6 h-6 text-teal-400 group-hover:scale-110 transition-transform"></i>
+                    <span class="text-sm uppercase tracking-widest">How It Works</span>
                 </button>
             </div>
 
             <div class="flex flex-wrap justify-center items-center gap-8 text-[9px] text-gray-500 uppercase font-black tracking-[0.3em] opacity-60">
                 <div class="flex items-center gap-2"><i data-lucide="shield-check" class="w-3.5 h-3.5 text-teal-500"></i> Anonymous</div>
                 <div class="flex items-center gap-2"><i data-lucide="users" class="w-3.5 h-3.5 text-teal-500"></i> Verified</div>
-                <div class="flex items-center gap-2"><i data-lucide="zap" class="w-3.5 h-3.5 text-amber-500"></i> Community</div>
+                <div class="flex items-center gap-2"><i data-lucide="zap" class="w-3.5 h-3.5 text-amber-500"></i> Community Powered</div>
             </div>
         </div>
     </section>
 
     <!-- 2. City Marquee -->
-    <div class="py-6 border-y border-white/5 bg-[#020617]/40 overflow-hidden relative">
-        <div class="flex gap-16 animate-marquee whitespace-nowrap opacity-20">
-            <!-- Cities -->
-            <div class="flex items-center gap-2 text-base font-black italic tracking-tighter"><i data-lucide="map-pin" class="w-4 h-4 text-teal-500"></i> BANGALORE</div>
-            <div class="flex items-center gap-2 text-base font-black italic tracking-tighter"><i data-lucide="map-pin" class="w-4 h-4 text-teal-500"></i> MUMBAI</div>
-            <div class="flex items-center gap-2 text-base font-black italic tracking-tighter"><i data-lucide="map-pin" class="w-4 h-4 text-teal-500"></i> DELHI</div>
-            <div class="flex items-center gap-2 text-base font-black italic tracking-tighter"><i data-lucide="map-pin" class="w-4 h-4 text-teal-500"></i> PUNE</div>
-            <div class="flex items-center gap-2 text-base font-black italic tracking-tighter"><i data-lucide="map-pin" class="w-4 h-4 text-teal-500"></i> HYDERABAD</div>
-            <div class="flex items-center gap-2 text-base font-black italic tracking-tighter"><i data-lucide="map-pin" class="w-4 h-4 text-teal-500"></i> CHENNAI</div>
-            <div class="flex items-center gap-2 text-base font-black italic tracking-tighter"><i data-lucide="map-pin" class="w-4 h-4 text-teal-500"></i> KORAMANGALA</div>
-            <div class="flex items-center gap-2 text-base font-black italic tracking-tighter"><i data-lucide="map-pin" class="w-4 h-4 text-teal-500"></i> BANDRA</div>
-            <!-- Repeat -->
-            <div class="flex items-center gap-2 text-base font-black italic tracking-tighter"><i data-lucide="map-pin" class="w-4 h-4 text-teal-500"></i> BANGALORE</div>
-            <div class="flex items-center gap-2 text-base font-black italic tracking-tighter"><i data-lucide="map-pin" class="w-4 h-4 text-teal-500"></i> MUMBAI</div>
-            <div class="flex items-center gap-2 text-base font-black italic tracking-tighter"><i data-lucide="map-pin" class="w-4 h-4 text-teal-500"></i> DELHI</div>
+    <div class="py-8 border-y border-white/5 bg-[#020617]/50 overflow-hidden relative">
+        <div class="flex gap-16 animate-marquee whitespace-nowrap opacity-20 font-black italic">
+            <div class="flex items-center gap-2 text-xl tracking-tighter"><i data-lucide="map-pin" class="w-5 h-5 text-teal-500"></i> BANGALORE</div>
+            <div class="flex items-center gap-2 text-xl tracking-tighter"><i data-lucide="map-pin" class="w-5 h-5 text-teal-500"></i> MUMBAI</div>
+            <div class="flex items-center gap-2 text-xl tracking-tighter"><i data-lucide="map-pin" class="w-5 h-5 text-teal-500"></i> DELHI</div>
+            <div class="flex items-center gap-2 text-xl tracking-tighter"><i data-lucide="map-pin" class="w-5 h-5 text-teal-500"></i> PUNE</div>
+            <div class="flex items-center gap-2 text-xl tracking-tighter"><i data-lucide="map-pin" class="w-5 h-5 text-teal-500"></i> HYDERABAD</div>
+            <div class="flex items-center gap-2 text-xl tracking-tighter"><i data-lucide="map-pin" class="w-5 h-5 text-teal-500"></i> CHENNAI</div>
+            <!-- Duplicate for infinite effect -->
+            <div class="flex items-center gap-2 text-xl tracking-tighter"><i data-lucide="map-pin" class="w-5 h-5 text-teal-500"></i> BANGALORE</div>
+            <div class="flex items-center gap-2 text-xl tracking-tighter"><i data-lucide="map-pin" class="w-5 h-5 text-teal-500"></i> MUMBAI</div>
         </div>
     </div>
 
     <!-- 3. Mission Section -->
-    <section id="mission" class="py-24 px-6">
+    <section id="mission" class="py-32 px-6 relative">
         <div class="max-w-6xl mx-auto">
-            <div class="grid lg:grid-cols-2 gap-16 items-center">
-                <div class="text-left">
-                    <h2 class="text-4xl md:text-5xl font-black mb-8 tracking-tighter leading-tight italic">
-                        Ending <br />
-                        <span class="text-teal-400 not-italic">Rental Blindness</span>
-                    </h2>
-                    <p class="text-gray-400 text-base md:text-lg leading-relaxed mb-6">
-                        We're here to close the information gap that makes renting in India so stressful. RateMyCrib is built to help you avoid bad landlords and surprise deposit losses.
-                    </p>
-                    <div class="bg-white/5 border-l-4 border-teal-500 p-5 rounded-r-xl italic text-gray-400 text-sm leading-relaxed">
-                        "We're working toward a future where your next lease is based on real experiences, not just a broker's word."
-                    </div>
+            <div class="text-center mb-20">
+                <h2 class="text-4xl md:text-6xl font-black mb-8 tracking-tighter leading-tight italic">
+                    The Mission: <span class="text-teal-400 not-italic">Ending Rental Blindness</span>
+                </h2>
+                <p class="text-gray-400 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
+                    We're here to close the information gap that makes renting in India so stressful. RateMyCrib is a community-powered platform built to help you avoid bad landlords and surprise deposit losses.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="bg-white/[0.03] border border-white/5 p-12 rounded-[3rem] flex flex-col items-center group hover:border-teal-500/20 transition-all text-center">
+                    <i data-lucide="trending-up" class="text-teal-400 mb-8 w-12 h-12"></i>
+                    <h3 class="text-7xl font-black text-white mb-4">40%</h3>
+                    <p class="text-teal-400 text-sm font-black uppercase tracking-widest">Tenants lose deposits unfairly</p>
                 </div>
-                
-                <div class="space-y-6">
-                    <div class="bg-white/[0.03] border border-white/5 p-10 rounded-[2rem] flex flex-col items-start group hover:bg-white/[0.05] transition-all">
-                        <i data-lucide="trending-up" class="text-teal-400 mb-6" size={32}></i>
-                        <h3 class="text-5xl font-black text-white mb-2">40%</h3>
-                        <p class="text-teal-400 text-[10px] font-black uppercase tracking-widest mb-4">Deposit At Risk</p>
-                        <p class="text-gray-500 text-sm leading-relaxed">Urban tenants lose their security deposits due to unfair "hidden" damage deductions.</p>
-                    </div>
-                    <div class="bg-white/[0.03] border border-white/5 p-10 rounded-[2rem] flex flex-col items-start group hover:bg-white/[0.05] transition-all">
-                        <i data-lucide="lock" class="text-teal-400 mb-6" size={32}></i>
-                        <h3 class="text-5xl font-black text-white mb-2">100%</h3>
-                        <p class="text-teal-400 text-[10px] font-black uppercase tracking-widest mb-4">Ghost Identity</p>
-                        <p class="text-gray-500 text-sm leading-relaxed">Your identity is never revealed. Speak the truth without fear using our encrypted protocols.</p>
-                    </div>
+                <div class="bg-white/[0.03] border border-white/5 p-12 rounded-[3rem] flex flex-col items-center group hover:border-indigo-500/20 transition-all text-center">
+                    <i data-lucide="lock" class="text-indigo-400 mb-8 w-12 h-12"></i>
+                    <h3 class="text-7xl font-black text-white mb-4">100%</h3>
+                    <p class="text-indigo-400 text-sm font-black uppercase tracking-widest">Anonymous & Encrypted</p>
                 </div>
+            </div>
+
+            <div class="mt-20 text-center max-w-2xl mx-auto">
+                <p class="italic text-gray-500 text-sm leading-relaxed">
+                    "With our founding renters, we're working toward a future where your next lease is based on real experiences, not just a broker's word. Be part of the transparency movement."
+                </p>
             </div>
         </div>
     </section>
 
     <!-- 4. Why RateMyCrib? -->
-    <section id="why" class="py-24 px-6 bg-[#020617]/50">
+    <section id="why" class="py-32 px-6 bg-[#020617]/50">
         <div class="max-w-6xl mx-auto">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-5xl font-black mb-4 tracking-tighter italic">No more <span class="text-teal-400">Secrets.</span></h2>
-                <div class="w-12 h-1 bg-teal-500 mx-auto rounded-full"></div>
+            <div class="mb-20">
+                <h2 class="text-4xl md:text-6xl font-black mb-4 tracking-tighter italic">Why <span class="text-teal-400">RateMyCrib</span>?</h2>
+                <p class="text-gray-400 text-lg">Real problems need real solutions. Here's what we're fixing.</p>
             </div>
 
-            <div class="grid md:grid-cols-3 gap-6 mb-16">
-                <div class="bg-white/[0.03] border border-white/5 p-8 rounded-[2rem] hover:bg-[#0f172a] transition-all text-center flex flex-col items-center">
-                    <div class="w-12 h-12 bg-teal-500/10 rounded-xl flex items-center justify-center text-teal-400 mb-6"><i data-lucide="droplets"></i></div>
-                    <h3 class="text-xl font-black mb-3">Seepage Secrets</h3>
-                    <p class="text-gray-500 text-sm leading-relaxed mb-6">Fresh paint hides water damage. Get reports from tenants.</p>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white/[0.02] border border-white/5 p-10 rounded-[2.5rem] hover:bg-[#0f172a] transition-all flex flex-col">
+                    <div class="w-14 h-14 bg-teal-500/10 rounded-2xl flex items-center justify-center text-teal-400 mb-8"><i data-lucide="droplets"></i></div>
+                    <h3 class="text-2xl font-black mb-4 leading-tight">The Seepage Secret</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed mb-10">Photos look great, the walls don't. Know the moisture history before you move in.</p>
+                    <div class="mt-auto flex items-center gap-2 text-teal-400 font-black text-[10px] uppercase tracking-widest italic">
+                        <i data-lucide="shield-check" class="w-4 h-4"></i> Hidden issues exposed
+                    </div>
                 </div>
-                <div class="bg-white/[0.03] border border-white/5 p-8 rounded-[2rem] hover:bg-[#0f172a] transition-all text-center flex flex-col items-center">
-                    <div class="w-12 h-12 bg-teal-500/10 rounded-xl flex items-center justify-center text-teal-400 mb-6"><i data-lucide="wallet"></i></div>
-                    <h3 class="text-xl font-black mb-3">Deposit Drama</h3>
-                    <p class="text-gray-500 text-sm leading-relaxed mb-6">Unfair deductions are real. We track landlord records.</p>
+                <div class="bg-white/[0.02] border border-white/5 p-10 rounded-[2.5rem] hover:bg-[#0f172a] transition-all flex flex-col">
+                    <div class="w-14 h-14 bg-indigo-500/10 rounded-2xl flex items-center justify-center text-indigo-400 mb-8"><i data-lucide="wallet"></i></div>
+                    <h3 class="text-2xl font-black mb-4 leading-tight">The Deposit Drama</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed mb-10">Unfair deductions are the norm. We track landlord records to protect your money.</p>
+                    <div class="mt-auto flex items-center gap-2 text-indigo-400 font-black text-[10px] uppercase tracking-widest italic">
+                        <i data-lucide="shield-check" class="w-4 h-4"></i> Protect your money
+                    </div>
                 </div>
-                <div class="bg-white/[0.03] border border-white/5 p-8 rounded-[2rem] hover:bg-[#0f172a] transition-all text-center flex flex-col items-center">
-                    <div class="w-12 h-12 bg-teal-500/10 rounded-xl flex items-center justify-center text-teal-400 mb-6"><i data-lucide="user-search"></i></div>
-                    <h3 class="text-xl font-black mb-3">Landlord Truths</h3>
-                    <p class="text-gray-500 text-sm leading-relaxed mb-6">Are they nosy? Do they fix stuff? Verified reviews.</p>
+                <div class="bg-white/[0.02] border border-white/5 p-10 rounded-[2.5rem] hover:bg-[#0f172a] transition-all flex flex-col">
+                    <div class="w-14 h-14 bg-amber-500/10 rounded-2xl flex items-center justify-center text-amber-400 mb-8"><i data-lucide="user-search"></i></div>
+                    <h3 class="text-2xl font-black mb-4 leading-tight">The Landlord Truth</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed mb-10">Peer-verified reviews on landlord behavior, not just the flat's dimensions.</p>
+                    <div class="mt-auto flex items-center gap-2 text-amber-400 font-black text-[10px] uppercase tracking-widest italic">
+                        <i data-lucide="shield-check" class="w-4 h-4"></i> Know who you deal with
+                    </div>
                 </div>
             </div>
 
-            <div class="bg-gradient-to-br from-white/5 to-transparent border border-white/5 p-12 rounded-[2.5rem] flex flex-col lg:flex-row items-center justify-between gap-10">
-                <div class="max-w-md text-center lg:text-left">
-                    <p class="text-teal-400 font-black text-[9px] uppercase tracking-[0.3em] mb-3">Community Powered</p>
-                    <h2 class="text-2xl md:text-4xl font-black mb-4 tracking-tighter leading-tight">The End of <br />Rental Blindness.</h2>
-                    <p class="text-gray-500 text-sm leading-relaxed">Join our network of founding members to fix Indian renting forever.</p>
+            <div class="mt-20 bg-gradient-to-br from-white/5 to-transparent border border-white/10 p-12 rounded-[3.5rem] flex flex-col lg:flex-row items-center justify-between gap-12 relative overflow-hidden">
+                <div class="absolute inset-0 bg-grid opacity-10"></div>
+                <div class="max-w-xl relative z-10">
+                    <p class="text-teal-400 font-black text-[10px] uppercase tracking-[0.4em] mb-4">Community Powered</p>
+                    <h2 class="text-3xl md:text-5xl font-black mb-6 tracking-tighter leading-tight">The End of <br />Rental Blindness.</h2>
+                    <p class="text-gray-400 text-lg leading-relaxed">
+                        We're building a network of 2,000 founding members to fix Indian renting forever. Join to secure lifetime access.
+                    </p>
                 </div>
-                <div class="grid grid-cols-2 gap-4 w-full lg:w-auto">
-                    <div class="bg-white/5 border border-white/10 px-6 py-6 rounded-xl text-center min-w-[120px] flex items-center justify-center text-[9px] font-black uppercase tracking-[0.2em] text-teal-400">Anonymous</div>
-                    <div class="bg-white/5 border border-white/10 px-6 py-6 rounded-xl text-center min-w-[120px] flex items-center justify-center text-[9px] font-black uppercase tracking-[0.2em] text-teal-400">Encrypted</div>
-                    <div class="bg-white/5 border border-white/10 px-6 py-6 rounded-xl text-center min-w-[120px] flex items-center justify-center text-[9px] font-black uppercase tracking-[0.2em] text-teal-400">Verified</div>
-                    <div class="bg-white/5 border border-white/10 px-6 py-6 rounded-xl text-center min-w-[120px] flex items-center justify-center text-[9px] font-black uppercase tracking-[0.2em] text-teal-400">Community</div>
+                <div class="grid grid-cols-2 gap-4 w-full lg:w-auto relative z-10">
+                    <div class="bg-white/5 border border-white/10 p-8 rounded-3xl text-center min-w-[140px] shadow-2xl">
+                        <div class="text-3xl font-black text-teal-400">2K+</div>
+                        <div class="text-[9px] font-black uppercase tracking-widest text-gray-500 mt-1">Members</div>
+                    </div>
+                    <div class="bg-white/5 border border-white/10 p-8 rounded-3xl text-center min-w-[140px] shadow-2xl">
+                        <div class="text-3xl font-black text-teal-400">500+</div>
+                        <div class="text-[9px] font-black uppercase tracking-widest text-gray-500 mt-1">Reviews</div>
+                    </div>
+                    <div class="bg-white/5 border border-white/10 p-8 rounded-3xl text-center min-w-[140px] shadow-2xl">
+                        <div class="text-3xl font-black text-teal-400">50+</div>
+                        <div class="text-[9px] font-black uppercase tracking-widest text-gray-500 mt-1">Cities</div>
+                    </div>
+                    <div class="bg-white/5 border border-white/10 p-8 rounded-3xl text-center min-w-[140px] shadow-2xl">
+                        <div class="text-3xl font-black text-teal-400">Free</div>
+                        <div class="text-[9px] font-black uppercase tracking-widest text-gray-500 mt-1">Forever</div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 5. Pre-Footer CTA (Nightmare Section) -->
-    <section id="nightmare" class="py-24 px-6 relative z-10">
+    <!-- 5. Rental Nightmare Section -->
+    <section id="nightmare" class="py-32 px-6 relative z-10">
         <div class="max-w-4xl mx-auto">
-            <div class="bg-[#0a1120] border border-white/10 rounded-[3rem] p-12 md:p-20 text-center shadow-2xl relative overflow-hidden">
-                <div class="mb-10 flex justify-center flex-col items-center">
-                    <svg viewBox="0 0 100 85" class="w-12 h-10 mb-2">
+            <div class="bg-[#0a1120] border border-white/10 rounded-[4rem] p-12 md:p-24 text-center shadow-3xl relative overflow-hidden group">
+                <div class="absolute -top-40 -left-40 w-96 h-96 bg-teal-500/10 blur-[120px] rounded-full"></div>
+                
+                <div class="mb-14 flex justify-center scale-150">
+                    <svg viewBox="0 0 100 85" class="w-12 h-10">
                         <path d="M50 5L10 40V80H42V55H58V80H90V40L50 5Z" fill="#1D3E76" />
-                        <rect x="72" y="18" width="10" height="22" fill="#1D3E76" />
                         <rect x="44" y="38" width="12" height="12" fill="#FBBF24" rx="1" />
-                        <path d="M50 38V50M44 44H56" stroke="#1D3E76" stroke-width="1" />
                         <path d="M77 2L79 8L85 10L79 12L77 18L75 12L69 10L75 8L77 2Z" fill="#FBBF24" />
                     </svg>
-                    <span class="text-[10px] font-bold text-[#21B7B0] uppercase tracking-widest">RateMyCrib</span>
                 </div>
 
-                <h2 class="text-2xl md:text-4xl font-black text-white mb-6 leading-tight tracking-tighter">
+                <h2 class="text-4xl md:text-6xl font-black text-white mb-8 tracking-tighter">
                     The End of <br /><span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-indigo-400 uppercase italic">Rental Blindness!!</span>
                 </h2>
                 
-                <p class="text-gray-300 text-lg md:text-xl italic font-bold mb-8">What is your biggest rental nightmare?</p>
-                <p class="text-gray-500 text-sm md:text-base mb-10 leading-relaxed max-w-lg mx-auto italic">"We are building a community of 2,000 founding members to fix Indian renting. Tell us your story and secure your lifetime access."</p>
+                <p class="text-gray-300 text-2xl italic font-bold mb-12">What is your biggest rental nightmare?</p>
+                <p class="text-gray-400 text-lg leading-relaxed max-w-2xl mx-auto italic mb-16 opacity-80">
+                    "We are building a community of 2,000 founding members to fix Indian renting. Tell us your story and secure your lifetime free access and other upcoming perks."
+                </p>
                 
-                <a href="mailto:founders@ratemycrib.co.in" class="inline-flex items-center justify-center bg-[#FBBF24] hover:bg-white text-black px-10 py-4 rounded-xl text-lg font-black transition-all shadow-xl hover:scale-[1.02] group">
-                    <i data-lucide="mail" class="mr-3 w-5 h-5"></i> Drop an E-Mail
-                </a>
+                <div class="space-y-8">
+                    <p class="text-teal-400 font-black text-base uppercase tracking-[0.2em] animate-pulse">Join the movement today.</p>
+                    <a href="mailto:founders@ratemycrib.co.in" class="inline-flex items-center justify-center bg-[#FBBF24] hover:bg-white text-black px-16 py-6 rounded-3xl text-2xl font-black transition-all shadow-2xl hover:scale-105 active:scale-95 group">
+                        <i data-lucide="mail" class="mr-4 w-8 h-8"></i> Drop an E-Mail
+                    </a>
+                    <p class="text-gray-600 font-bold text-xs uppercase tracking-widest pt-4">Drop us an email now!</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="py-16 px-6 border-t border-white/5 bg-[#010411]">
-        <div class="max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12 text-center lg:text-left">
+    <footer class="py-24 px-6 border-t border-white/5 bg-[#010411]">
+        <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-16 text-center lg:text-left">
             <div class="flex flex-col items-center lg:items-start">
-                <div class="text-[22px] font-bold text-white mb-2 tracking-tight">RateMyCrib</div>
-                <p class="text-gray-600 font-bold max-w-sm text-[8px] tracking-[0.3em] uppercase">Built for the urban renter.</p>
+                <div class="text-[28px] font-black text-white mb-4 tracking-tighter uppercase">RateMyCrib</div>
+                <p class="text-gray-600 font-bold max-w-sm leading-relaxed uppercase text-[10px] tracking-[0.3em]">
+                    Dedicated to radical transparency in the Indian rental market. Built for the community.
+                </p>
             </div>
-            <div class="flex flex-col items-center lg:items-end gap-5">
-                <a href="mailto:founders@ratemycrib.co.in" class="text-white hover:text-teal-400 font-black text-sm flex items-center gap-2"><i data-lucide="mail" class="w-4 h-4"></i> founders@ratemycrib.co.in</a>
+            
+            <div class="flex flex-col items-center lg:items-end gap-8">
+                <a href="mailto:founders@ratemycrib.co.in" class="text-white hover:text-teal-400 font-black text-xl transition-all flex items-center gap-3">
+                    <i data-lucide="mail" class="text-teal-400 w-6 h-6"></i> founders@ratemycrib.co.in
+                </a>
+                <div class="flex gap-10">
+                    <a href="#" class="text-gray-600 hover:text-white transition-colors"><i data-lucide="instagram" class="w-6 h-6"></i></a>
+                    <a href="#" class="text-gray-600 hover:text-white transition-colors"><i data-lucide="twitter" class="w-6 h-6"></i></a>
+                    <a href="#" class="text-gray-600 hover:text-white transition-colors"><i data-lucide="linkedin" class="w-6 h-6"></i></a>
+                </div>
             </div>
         </div>
-        <div class="max-w-6xl mx-auto mt-12 pt-8 border-t border-white/5 flex justify-between items-center text-[8px] text-gray-700 font-black uppercase tracking-[0.3em]">
-            <span><i data-lucide="shield-alert" class="w-3 h-3 text-teal-500"></i> Security Active</span>
-            <span>© 2024 RateMyCrib.</span>
+        
+        <div class="max-w-7xl mx-auto mt-20 pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
+           <div class="flex items-center gap-3 text-[10px] text-gray-700 font-black uppercase tracking-[0.4em]">
+              <i data-lucide="shield-alert" class="w-4 h-4 text-teal-500"></i> Anonymous & Encrypted
+           </div>
+           <p class="text-[10px] text-gray-800 font-black tracking-[0.4em] uppercase">
+            © 2024 RateMyCrib. Built by Renters, for Renters.
+          </p>
         </div>
     </footer>
 
